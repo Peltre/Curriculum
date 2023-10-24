@@ -1,0 +1,83 @@
+
+#Portada {
+    padding: 10px; 
+}
+
+/*Definimos metodos para la clase de titulos*/
+.titulos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+#menu {
+    display: flex;
+    justify-content: center; /* Para centrar los enlaces horizontalmente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px; /* Ajusta el espaciado según tus preferencias */
+    margin-top: -60px; /* Espacio entre la imagen y los enlaces */
+}
+
+/* Estilos para los enlaces individuales */
+#Links,
+#Aboutme,
+#Proyectos,
+#github {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 60px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el enlace "Inicio" */
+#Inicio {
+    position: absolute;
+    top: 10px; /* Ajusta la posición arriba de la imagen */
+    right: 580px; /* Ajusta la posición a la derecha */
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#background-rectangle {
+    position: fixed;
+    top: 0;
+    left: 50%; /* Alineamos a la mitad del ancho de la ventana */
+    transform: translateX(-50%); /* Centramos el rectángulo verticalmente */
+    width: 1000px; /* Ancho del rectángulo vertical */
+    height: 100%; /* Altura que cubre toda la ventana */
+    background-color: white;
+    z-index: -1;
+}
+
+.img {
+    padding: 10px; 
+}
+
+.social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social_cont{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto-con-wrap {
+    word-wrap: break-word; /* Hace que las palabras se ajusten al ancho del contenedor */
+    width: 345px; /* Establece el ancho del contenedor según tus necesidades */
+    border: 1px solid #ccc; /* Para visualizar los límites del contenedor */
+    padding: 10px; /* Añade relleno para separar el texto del borde */
+    margin-left: 780px;
+    font-size: large;
+}
